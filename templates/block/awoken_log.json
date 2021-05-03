@@ -1,0 +1,9 @@
+{
+	"parent": "${modid}:block/awoken_log",
+	"textures": {
+		"end": "minecraft:block/%1$s_log_top",
+		"side": "minecraft:block/%1$s_log",
+		"overlay_side": "${modid}:block/side_layer",
+		"overlay_end": "${modid}:block/end_layer"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "treestorage",
+	"version": "${version}",
+	"name": "Treefined Storage",
+	"description": "picture ae2 but tree",
+	"authors": [
+		"NuclearFarts"
+	],
+	"license": "LGPLv3",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.nuclearfarts.treestorage.TreeStorage"
+		]
+	},
+	"mixins": [
+		"treestorage.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.7.4",
+		"fabric": "*",
+		"minecraft": "1.16.x"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=x": {
+			"model": "${modid}:block/${id}",
+			"y": 90,
+			"x": 90
+		},
+		"axis=y": {
+			"model": "${modid}:block/${id}"
+		},
+		"axis=z": {
+			"model": "${modid}:block/${id}",
+			"x": 90
+		}
+	}
+}
